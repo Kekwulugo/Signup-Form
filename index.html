@@ -3,43 +3,70 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="reset.css">
+ <link rel="stylesheet" href="Assets/css/style.css">
+ 
  <title>Sign Up Form</title>
 </head>
 <body>
- <img src="wil-stewart-K_TbABnVzHo-unsplash.jpg" alt="palm trees wallpaper">
- <div>
-  <img src="odin-lined.png" alt="logo">
+
+ <div class="main-container">
+
+ <div class="left-container">
+  <div class="card-container">
+ <img src="Assets/img/wil-stewart-K_TbABnVzHo-unsplash.jpg" class = "card-image" alt="palm trees wallpaper">
+ 
+ <div class="card-body">
+  <img src="Assets/img/odin-lined.png" class="odinlogo" alt="logo">
+  <h1 id="company-name">ODIN</h1>
+  
+  </div>
+<p id="credits">Photo by <a
+  href="https://unsplash.com/@wilstewart3?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Wil
+  Stewart</a> on <a
+  href="https://unsplash.com/photos/worms-eyeview-photography-of-coconut-trees-K_TbABnVzHo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</p>
+  </div>
+ 
  </div>
- <div>
+
+
+
+ <div class="right-container">
   <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to ge started.</h1>
   <h1>You know you want to.</h1>
 
+  <h2>Let's Do This!</h2>
+
   <div class="form-container">
    <form action="#">
-    <p>Let's Do This!</p>
+    
     <label for="firstname"> FIRST NAME</label>
-    <input type="text" name="firstname" id="">
+    <input type="text" name="firstname">
 
     <label for="lastname">LAST NAME</label>
-    <input type="text" name="lastname" id="">
+    <input type="text" name="lastname" >
 
     <label for="email"> EMAIL </label>
-    <input type="email" name="email" id="">
+    <input type="email" name="email">
 
     <label for="phone-number">PHONE NUMBER</label>
-    <input type="number" name="phone-number" id="">
+    <input type="number" name="phone-number">
 
     <label for="password"> PASSWORD</label>
-    <input type="password" name="password" id="">
+    <input type="password" name="password">
 
     <label for="password-match">CONFIRM PASSWORD</label>
-    <input type="password" name="password-match" id="">
+    <input type="password" name="password-match">
+
+    
    </form>
+
+   <button type="submit">Create Account</button>
+   <p>Already have Account? <a href="#">Log In</a></p>
   </div>
-  <button type="submit">Create Account</button>
-  <p>Already have Account? <a href="#">Log In</a></p>
+  
+  
+ </div>
  </div>
  
 </body>
