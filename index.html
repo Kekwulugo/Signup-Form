@@ -40,40 +40,40 @@
   </div>
 
   <div class="form-container">
-   <form action="#">
+   <form action="" method="post">
 
 
     <h2>Let's Do This!</h2>
     
     <div class="label-inputs">
-    <label for="firstname"> FIRST NAME</label>
-    <input type="text" name="firstname">
+    <label for="firstname">FIRST NAME<span> *</span></label>
+    <input type="text" name="firstname" required>
     </div>
 
 <div class="label-inputs">
-    <label for="lastname">LAST NAME</label>
-    <input type="text" name="lastname" >
+    <label for="lastname">LAST NAME<span> *</span></label>
+    <input type="text" name="lastname" required >
     </div>
 
 
 <div class="label-inputs">
-    <label for="email"> EMAIL </label>
-    <input type="email" name="email">
+    <label for="email">EMAIL<span> *</span></label>
+    <input type="email" name="email" required>
 </div>
 
 <div class="label-inputs">
-    <label for="phone-number">PHONE NUMBER</label>
-    <input type="number" name="phone-number">
+    <label for="phone-number">PHONE NUMBER<span> *</span></label>
+    <input type="number" name="phone-number" required>
     </div>
 
   <div class="label-inputs">
-    <label for="password"> PASSWORD</label>
-    <input type="password" name="password">
+    <label for="password">PASSWORD<span id="feedback"> *</span></label>
+    <input class="password" type="password" name="password" required>
     </div>
 
 <div class="label-inputs">
-    <label for="password-match">CONFIRM PASSWORD</label>
-    <input type="password" name="password-match">
+    <label for="password-match">CONFIRM PASSWORD<span> *</span></label>
+    <input class="password1" type="password" name="password-match" required>
   </div>
 
     
@@ -85,6 +85,6 @@
   
  </div>
  </div>
- 
+ <script src="Assets/js/script.js"></script>
 </body>
 </html>
