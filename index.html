@@ -58,7 +58,7 @@
 
 <div class="label-inputs">
     <label for="email">EMAIL<span> *</span></label>
-    <input type="email" name="email" required>
+    <input type="email" name="email" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
 </div>
 
 <div class="label-inputs">
@@ -319,7 +319,7 @@
     
     <div class="label-inputs">
     <label for="postal-code">POSTAL CODE<span> *</span></label>
-    <input type="postal-code" name="postal-code" required>
+    <input type="postal-code" name="postal-code"  minlength="6" maxlength="6" pattern= "/^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/" required>
     </div>
 
     
