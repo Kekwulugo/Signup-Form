@@ -114,6 +114,17 @@ input, select{
  border: 1px solid #9690A0;
  border-radius: 5px;
 }
+
+input:invalid:required{
+border: 1px solid red;
+}
+input:invalid{
+ border: 1px solid red;
+}
+
+select:invalid{
+border: 1px solid red;
+}
 span{
  color: red;
 }
