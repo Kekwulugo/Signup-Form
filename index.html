@@ -40,7 +40,7 @@
   </div>
 
   <div class="form-container">
-   <form action="" method="post">
+   <form action="" method="">
 
 
     <h2>Let's Do This!</h2>
@@ -58,12 +58,14 @@
 
 <div class="label-inputs">
     <label for="email">EMAIL<span> *</span></label>
-    <input type="email" name="email" required pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/">
+    <input type="email" name="email" id="email" required >
+
 </div>
 
 <div class="label-inputs">
     <label for="phone-number">PHONE NUMBER<span> *</span></label>
-    <input type="number" name="phone-number" required>
+    <input type="tel" name="phone-number" id="phone" required >
+    
     </div>
     
 <div class="label-inputs>
@@ -71,7 +73,7 @@
         
             <select id="country" name="country" class="form-control">
                 <option value="Afghanistan">Afghanistan</option>
-                <option value="Åland Islands">Åland Islands</option>
+                <option value="Aland Islands">Aland Islands</option>
                 <option value="Albania">Albania</option>
                 <option value="Algeria">Algeria</option>
                 <option value="American Samoa">American Samoa</option>

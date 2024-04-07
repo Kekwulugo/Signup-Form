@@ -24,6 +24,8 @@ a{
 .main-container{
  display: flex;
  position: relative;
+ margin: 100px;
+ border: 1px solid black;
 }
 .left-container{
  position: relative;
@@ -91,7 +93,7 @@ a{
 form{
  display: grid;
  grid-template-columns: repeat(2, 1fr);
- grid-template-rows: repeat(3, 1fr);
+ grid-template-rows: repeat(4, 1fr);
  margin: 50px;
  
 }
@@ -116,7 +118,7 @@ input, select{
 }
 
 input:invalid:required{
-border: 1px solid red;
+background-color: lightpink;
 }
 input:invalid{
  border: 1px solid red;
