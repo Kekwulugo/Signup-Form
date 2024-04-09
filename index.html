@@ -321,7 +321,7 @@
     
     <div class="label-inputs">
     <label for="postal-code">POSTAL CODE<span> *</span></label>
-    <input type="postal-code" name="postal-code"  minlength="6" maxlength="6" pattern= "/^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$/" required>
+    <input type="postal-code" name="postal-code"  minlength="6" maxlength="6"  required>
     </div>
 
     
@@ -332,14 +332,19 @@
     </div>
 
 <div class="label-inputs">
-    <label for="password-match">CONFIRM PASSWORD<span> *</span></label>
+    <label for="password-match">CONFIRM PASSWORD<span id="match"> *</span></label>
     <input class="password1" type="password" name="password-match" required>
   </div>
+  <div>
+<button type="submit">Create Account</button>
+  </div>
+
+
 
     
    </form>
   </div>
-  <button type="submit">Create Account</button>
+  
   <p id="account">Already have Account? <a href="#">Log In</a></p>
   
   

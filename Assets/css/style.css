@@ -25,7 +25,7 @@ a{
  display: flex;
  position: relative;
  margin: 100px;
- border: 1px solid black;
+ border: 1px solid #9690A0;
 }
 .left-container{
  position: relative;
@@ -137,18 +137,22 @@ button{
  color: white;
  border-radius: 10px;
  border: none;
- margin-top: 3%;
- margin-left: 50px;
+ margin-top: 30px;
+ 
  font-size: 1rem;
  padding: 10px 20px 10px 20px;
 }
 
 #account{
- margin-left: 50px;
+ margin: 50px;
 }
 
 .error {
  border: 2px solid red;
+}
+
+.hide{
+  visibility:hidden;
 }
 
 
